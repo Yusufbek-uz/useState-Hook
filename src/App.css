@@ -1,0 +1,36 @@
+.btns{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+h3{
+  text-wrap: balance;
+  max-inline-size: 170px;
+}
+
+.cont{
+  display: flex;
+  place-self: center;
+  gap: 30px;
+  margin-top: 200px;
+  height: 300px;
+}
+
+.hdd{
+  text-align: center;
+  .hdd-b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+.input{
+  max-width: 177px;
+  overflow-x: hidden;
+  padding: 0px 20px;
+  /* -webkit-line-clamp: 1; */
+  /* -webkit-text-stroke-width: 0.001px; */
+  /* -webkit-text-stroke-color: 1px; */
+}
